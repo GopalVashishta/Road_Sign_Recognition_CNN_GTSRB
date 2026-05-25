@@ -1,0 +1,273 @@
+{
+  "speed_limit_20": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 40.0
+  },
+  "speed_limit_30": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 441.0
+  },
+  "speed_limit_50": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 450.0
+  },
+  "speed_limit_60": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 279.0
+  },
+  "speed_limit_70": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 396.0
+  },
+  "speed_limit_80": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 374.0
+  },
+  "end_speed_limit_80": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 85.0
+  },
+  "speed_limit_100": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 284.0
+  },
+  "speed_limit_120": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 279.0
+  },
+  "no_passing": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 293.0
+  },
+  "no_passing_trucks": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 401.0
+  },
+  "right_of_way_next_intersection": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 261.0
+  },
+  "priority_road": {
+    "precision": 0.9976190476190476,
+    "recall": 1.0,
+    "f1-score": 0.99880810488677,
+    "support": 419.0
+  },
+  "yield": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 432.0
+  },
+  "stop": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 158.0
+  },
+  "no_vehicles": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 126.0
+  },
+  "no_trucks": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 85.0
+  },
+  "no_entry": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 221.0
+  },
+  "general_caution": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 239.0
+  },
+  "dangerous_curve_left": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 40.0
+  },
+  "dangerous_curve_right": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 67.0
+  },
+  "double_curve": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 63.0
+  },
+  "bumpy_road": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 76.0
+  },
+  "slippery_road": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 99.0
+  },
+  "road_narrows_right": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 54.0
+  },
+  "road_work": {
+    "precision": 1.0,
+    "recall": 0.9966329966329966,
+    "f1-score": 0.9983136593591906,
+    "support": 297.0
+  },
+  "traffic_signals": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 117.0
+  },
+  "pedestrians": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 45.0
+  },
+  "children_crossing": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 104.0
+  },
+  "bicycles_crossing": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 54.0
+  },
+  "beware_ice_snow": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 90.0
+  },
+  "wild_animals_crossing": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 158.0
+  },
+  "end_restrictions": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 45.0
+  },
+  "turn_right_ahead": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 135.0
+  },
+  "turn_left_ahead": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 81.0
+  },
+  "ahead_only": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 239.0
+  },
+  "go_straight_or_right": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 76.0
+  },
+  "go_straight_or_left": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 40.0
+  },
+  "keep_right": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 414.0
+  },
+  "keep_left": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 58.0
+  },
+  "roundabout_mandatory": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 67.0
+  },
+  "end_no_passing": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 45.0
+  },
+  "end_no_passing_trucks": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 49.0
+  },
+  "accuracy": 0.9998713991769548,
+  "macro avg": {
+    "precision": 0.9999446290143964,
+    "recall": 0.9999216975961162,
+    "f1-score": 0.9999330642847898,
+    "support": 7776.0
+  },
+  "weighted avg": {
+    "precision": 0.9998717053693905,
+    "recall": 0.9998713991769548,
+    "f1-score": 0.9998713673839038,
+    "support": 7776.0
+  }
+}

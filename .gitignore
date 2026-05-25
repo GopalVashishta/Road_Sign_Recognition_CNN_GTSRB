@@ -1,0 +1,9 @@
+.venv
+__pycache__
+paper.txt
+road_sign_recognition_prompt.md
+yolo_dataset
+dataset
+prepared
+segre_dat.py
+Resume.txt

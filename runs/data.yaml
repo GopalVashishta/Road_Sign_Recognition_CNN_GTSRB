@@ -1,0 +1,49 @@
+path: C:\Users\Asus\Downloads\INT345\Project\dataset_yolo
+train: images/train
+val: images/val
+test: images/test
+nc: 43
+names:
+  - Speed limit 20
+  - Speed limit 30
+  - Speed limit 50
+  - Speed limit 60
+  - Speed limit 70
+  - Speed limit 80
+  - End speed limit 80
+  - Speed limit 100
+  - Speed limit 120
+  - No passing
+  - No passing for vehicles >3.5t
+  - Right of way at junction
+  - Priority road
+  - Yield
+  - Stop
+  - No vehicles
+  - Vehicles >3.5t prohibited
+  - No entry
+  - General caution
+  - Dangerous curve left
+  - Dangerous curve right
+  - Double curve
+  - Bumpy road
+  - Slippery road
+  - Road narrows right
+  - Road work
+  - Traffic signals
+  - Pedestrians
+  - Children crossing
+  - Bicycles crossing
+  - Beware ice/snow
+  - Wild animals crossing
+  - End all restrictions
+  - Turn right ahead
+  - Turn left ahead
+  - Ahead only
+  - Go straight or right
+  - Go straight or left
+  - Keep right
+  - Keep left
+  - Roundabout mandatory
+  - End no passing
+  - End no passing >3.5t

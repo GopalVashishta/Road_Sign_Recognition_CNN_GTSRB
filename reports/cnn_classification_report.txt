@@ -1,0 +1,49 @@
+                                precision    recall  f1-score   support
+
+                speed_limit_20     1.0000    1.0000    1.0000        40
+                speed_limit_30     1.0000    1.0000    1.0000       441
+                speed_limit_50     1.0000    1.0000    1.0000       450
+                speed_limit_60     1.0000    1.0000    1.0000       279
+                speed_limit_70     1.0000    1.0000    1.0000       396
+                speed_limit_80     1.0000    1.0000    1.0000       374
+            end_speed_limit_80     1.0000    1.0000    1.0000        85
+               speed_limit_100     1.0000    1.0000    1.0000       284
+               speed_limit_120     1.0000    1.0000    1.0000       279
+                    no_passing     1.0000    1.0000    1.0000       293
+             no_passing_trucks     1.0000    1.0000    1.0000       401
+right_of_way_next_intersection     1.0000    1.0000    1.0000       261
+                 priority_road     0.9976    1.0000    0.9988       419
+                         yield     1.0000    1.0000    1.0000       432
+                          stop     1.0000    1.0000    1.0000       158
+                   no_vehicles     1.0000    1.0000    1.0000       126
+                     no_trucks     1.0000    1.0000    1.0000        85
+                      no_entry     1.0000    1.0000    1.0000       221
+               general_caution     1.0000    1.0000    1.0000       239
+          dangerous_curve_left     1.0000    1.0000    1.0000        40
+         dangerous_curve_right     1.0000    1.0000    1.0000        67
+                  double_curve     1.0000    1.0000    1.0000        63
+                    bumpy_road     1.0000    1.0000    1.0000        76
+                 slippery_road     1.0000    1.0000    1.0000        99
+            road_narrows_right     1.0000    1.0000    1.0000        54
+                     road_work     1.0000    0.9966    0.9983       297
+               traffic_signals     1.0000    1.0000    1.0000       117
+                   pedestrians     1.0000    1.0000    1.0000        45
+             children_crossing     1.0000    1.0000    1.0000       104
+             bicycles_crossing     1.0000    1.0000    1.0000        54
+               beware_ice_snow     1.0000    1.0000    1.0000        90
+         wild_animals_crossing     1.0000    1.0000    1.0000       158
+              end_restrictions     1.0000    1.0000    1.0000        45
+              turn_right_ahead     1.0000    1.0000    1.0000       135
+               turn_left_ahead     1.0000    1.0000    1.0000        81
+                    ahead_only     1.0000    1.0000    1.0000       239
+          go_straight_or_right     1.0000    1.0000    1.0000        76
+           go_straight_or_left     1.0000    1.0000    1.0000        40
+                    keep_right     1.0000    1.0000    1.0000       414
+                     keep_left     1.0000    1.0000    1.0000        58
+          roundabout_mandatory     1.0000    1.0000    1.0000        67
+                end_no_passing     1.0000    1.0000    1.0000        45
+         end_no_passing_trucks     1.0000    1.0000    1.0000        49
+
+                      accuracy                         0.9999      7776
+                     macro avg     0.9999    0.9999    0.9999      7776
+                  weighted avg     0.9999    0.9999    0.9999      7776

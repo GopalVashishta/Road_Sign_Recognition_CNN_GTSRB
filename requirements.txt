@@ -1,0 +1,17 @@
+# Force PyTorch packages from CUDA 12.4 wheels (GPU build)
+--index-url https://download.pytorch.org/whl/cu124
+--extra-index-url https://pypi.org/simple
+
+torch==2.6.0+cu124
+torchvision==0.21.0+cu124
+ultralytics>=8.0
+opencv-python
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+streamlit
+Pillow
+PyYAML
+tqdm
