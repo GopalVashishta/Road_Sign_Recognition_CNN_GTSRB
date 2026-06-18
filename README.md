@@ -378,3 +378,40 @@ Streamlit app:
 .\.venv\Scripts\python.exe -m src.evaluate
 .\.venv\Scripts\python.exe -m src.pipeline --image dataset/Test/00000.png --output outputs/prediction.png
 ```
+
+##########################
+Recommended project title: Road Sign Recognition System using PyTorch CNN and YOLOv8
+
+**Version 1 - Short**
+- Spearheaded a 3-person team to deliver a deep learning road sign recognition system, owning dataset selection, model strategy, and end-to-end delivery from preprocessing through inference.
+- Orchestrated the integration of YOLOv8 detection and CNN classification on a shared 43-class dataset, resolving label mapping and training constraints across the pipeline.
+- Delivered a Windows GPU workflow with 99.9871% CNN test accuracy and 0.99484 YOLO mAP@0.5, ready for reproducible evaluation and demo use.
+
+**Version 2 - Mid**
+- Architected a machine learning and deep learning computer vision pipeline in PyTorch, Ultralytics YOLOv8, torchvision, and OpenCV, using YOLO for object detection and a custom CNN for image classification.
+- Engineered a reproducible data-preparation flow from CSV annotations into stratified 70/15/15 train/val/test splits, generating both classification folders and YOLO labels from ROI coordinates.
+- Tuned CNN training with CrossEntropyLoss, Adam, ReduceLROnPlateau, and early stopping, reaching 95.9871% test accuracy and 0.96443 macro F1 on 7,776 test samples.
+- Configured YOLOv8 training with staged freezing and unfreezing, CUDA acceleration, and Windows-safe dataloader settings for a 4GB RTX 3050 environment, reaching 0.99484 mAP@0.5 and 0.96229 mAP@0.5:0.95.
+- Integrated evaluation, Grad-CAM, confusion matrices, classification reports, and a Streamlit demo to support debugging, presentation, and repeatable validation.
+
+**Version 3 - Long**
+- Assessed a GTSRB-style road sign dataset with 43 classes and inconsistent annotation formats, then defined a unified preprocessing flow to standardize images, labels, and train/val/test splits for both detection and classification.
+- Resolved dataset-selection and label-mapping risk by comparing candidate folder layouts and CSV annotations, then standardized on a single split so YOLOv8 and CNN training consumed the same data distribution.
+- Built a custom PyTorch CNN with convolution, batch normalization, pooling, dropout, and a dense head, then trained it with Adam, CrossEntropyLoss, ReduceLROnPlateau, and early stopping to 99.9871% test accuracy on 7,776 samples.
+- Implemented YOLOv8 detector training with staged freezing, full unfreeze, resume support, and Windows-safe dataloader settings to fit within a 4GB GPU and maintain stable training.
+- Orchestrated the detector run under runs_cont to 0.99484 mAP@0.5 and 0.96229 mAP@0.5:0.95, confirming strong localization quality alongside the classifier.
+- Integrated YOLO bounding-box proposals with CNN crop-level predictions in a single inference pipeline, eliminating class-space mismatch and ensuring the final label came from the classifier.
+- Coordinated a 3-person team through implementation, debugging, evaluation, and demo preparation, delivering reproducible artifacts, metrics reports, and a Streamlit application.
+- Documented the pipeline and evaluation outputs for easier iteration, improving maintainability and reproducibility.
+
+**ATS Keyword Audit**
+- PyTorch — included
+- YOLOv8 — included
+- CNN — included
+- Machine Learning — included
+- Deep Learning — included
+- Computer Vision — included
+- Object Detection — included
+- Image Classification — included
+- CUDA — included
+- CrossEntropyLoss — included
